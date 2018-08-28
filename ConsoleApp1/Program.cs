@@ -85,12 +85,15 @@ namespace ConsoleApp1
         }
         static void Main(string[] args)
         {
-            Program p = new Program();
+            BookService b = new BookService(new BookContext());
+            b.AddBooksAsync().Wait();
+
+            //Program p = new Program();
             //p.AddBookAsync("mm", "nn").Wait();
             //p.AddBooksAsync().Wait();
             //p.UpdateAsync("xx", "ss").Wait();
             //p.ReadBooks();
-            p.DeleteAsync().Wait();
+            //p.DeleteAsync().Wait();
 
         }
     }

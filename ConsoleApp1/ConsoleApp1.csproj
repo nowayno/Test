@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="Book.cs" />
     <Compile Include="BookContext.cs" />
+    <Compile Include="BookService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
