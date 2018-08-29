@@ -52,6 +52,9 @@
     <Compile Include="Book.cs" />
     <Compile Include="BookContext.cs" />
     <Compile Include="BookService.cs" />
+    <Compile Include="Menu.cs" />
+    <Compile Include="MenuCard.cs" />
+    <Compile Include="MenuDbContext.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
